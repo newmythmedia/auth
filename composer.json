@@ -1,0 +1,22 @@
+{
+  "name": "myth/auth",
+  "type": "library",
+  "description": "Provides a flexible Authentication and Authorisation system with a focus on ease-of-use and security.",
+  "keywords": [
+	"authentication",
+	"authorization"
+  ],
+  "homepage": "https://github.com/newmythmedia/auth",
+  "license": "MIT",
+  "authors": [
+	{
+	  "name": "Lonnie Ezell",
+	  "homepage": "http://newmythmedia.com"
+	}
+  ],
+  "autoload": {
+	"psr-4": {
+	  "Myth\\Auth\\": "src"
+	}
+  }
+}
